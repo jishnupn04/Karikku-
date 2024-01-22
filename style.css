@@ -1,0 +1,75 @@
+#img
+{
+    transform: rotate(-0.10turn);
+    height:40px;
+    
+}
+#logo
+{
+    font-family: 'Concert One', sans-serif;
+    color: #82d300;
+}
+#bg
+{
+    
+    background: radial-gradient(#E1A33D,yellow);
+    height:100vh;
+    
+}
+#head
+{
+    color: white;
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
+    position: relative;
+    top:250px;
+    text-shadow: 0px 5px 10px green ;
+    animation: zoom-in 0.5s ease-in-out ;
+}
+#center
+{
+    background-image: url(./images/cropped-Tender-Coconut-Bottle-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    bottom: 100px;
+    background-size:500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: zoom-in 0.2s ease-in ;
+}
+.verthe-img
+{
+  height:775px;
+  border-radius: 0px 50px 50px 0px;
+}
+.verthe-img2
+{
+  height:775px;
+  border-radius: 50px 0px 0px 50px;
+}
+.buy-container
+{
+    display: flex;
+   
+    justify-content: center;
+    position: relative;
+    top:200px;
+}
+.buy-container>*
+{
+  padding: 10px;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0.9);
+
+  }
+  100% {
+    transform: scale(1);
+  }
+}
